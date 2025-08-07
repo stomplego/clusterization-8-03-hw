@@ -41,6 +41,8 @@
 - Настройте балансировку Round-robin на 4 уровне.
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 
+haproxy.cfg: https://github.com/stomplego/clusterization-8-03-hw/blob/main/clusterization-8-03-hw/haproxy1.cfg
+
 !["Задание 1"](./images/zadanie1.PNG)
 
 
@@ -49,6 +51,8 @@
 - Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
 - HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
+
+haproxy.cfg: https://github.com/stomplego/clusterization-8-03-hw/blob/main/clusterization-8-03-hw/haproxy2.cfg
 
 !["Задание 2"](./images/zadanie2.PNG)
 
